@@ -1,0 +1,16 @@
+Unsupervised Machine Learning
+What does Unsupervised Machine Learning Mean?
+Unsupervised machine learning algorithms infer patterns from a dataset without reference to known, or labeled, outcomes. Unlike supervised machine learning, unsupervised machine learning methods cannot be directly applied to a regression or a classification problem because you have no idea what the values for the output data might be, making it impossible for you to train the algorithm the way you normally would. Unsupervised learning can instead be used to discover the underlying structure of the data.
+
+Why is Unsupervised Machine Learning Important?
+Unsupervised machine learning purports to uncover previously unknown patterns in data, but most of the time these patterns are poor approximations of what supervised machine learning can achieve. Additionally, since you do not know what the outcomes should be, there is no way to determine how accurate they are, making supervised machine learning more applicable to real-world problems.
+
+The best time to use unsupervised machine learning is when you do not have data on desired outcomes, such as determining a target market for an entirely new product that your business has never sold before. However, if you are trying to get a better understanding of your existing consumer base, supervised learning is the optimal technique.
+
+Some applications of unsupervised machine learning techniques include:
+
+Clustering allows you to automatically split the dataset into groups according to similarity. Often, however, cluster analysis overestimates the similarity between groups and doesn’t treat data points as individuals. For this reason, cluster analysis is a poor choice for applications like customer segmentation and targeting.
+Anomaly detection can automatically discover unusual data points in your dataset. This is useful in pinpointing fraudulent transactions, discovering faulty pieces of hardware, or identifying an outlier caused by a human error during data entry.
+Association mining identifies sets of items that frequently occur together in your dataset. Retailers often use it for basket analysis, because it allows analysts to discover goods often purchased at the same time and develop more effective marketing and merchandising strategies.
+Latent variable models are commonly used for data preprocessing, such as reducing the number of features in a dataset (dimensionality reduction) or decomposing the dataset into multiple components.
+The patterns you uncover with unsupervised machine learning methods may also come in handy when implementing supervised machine learning methods later on. For example, you might use an unsupervised technique to perform cluster analysis on the data, then use the cluster to which each row belongs as an extra feature in the supervised learning model (see semi-supervised machine learning). Another example is a fraud detection model that uses anomaly detection scores as an extra feature.
